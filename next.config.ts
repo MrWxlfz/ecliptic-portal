@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export", // Ensures Vercel finds the build output
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
+  output: "standalone", // Allows dynamic routes & API calls
 };
 
 export default nextConfig;
