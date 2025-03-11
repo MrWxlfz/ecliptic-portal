@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 
 export default function LandingPage() {
   const [darkMode, setDarkMode] = useState(false);
-  const userProfilePic = "/user-pfp.png"; // Replace with dynamic profile image when authentication is implemented
 
   return (
     <div className={`flex flex-col items-center justify-center min-h-screen transition-all duration-500 ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}>
