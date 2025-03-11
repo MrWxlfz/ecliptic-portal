@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ecliptic Portal  
 
-## Getting Started
+**Protect, manage, portal.**  
 
-First, run the development server:
+Ecliptic Portal is the official dashboard for managing your game’s security, moderation, and community from anywhere, at any time.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Seamless Moderation** – Manage bans, warnings, and reports with an intuitive interface.  
+- **Real-Time Insights** – View security logs, user activity, and system alerts in one place.  
+- **Ecliptic ID Integration** – Unified authentication across all Ecliptic services.  
+- **Dark & Light Mode** – A modern UI that adapts to your preference.  
+- **Secure Infrastructure** – Built with security in mind to protect game assets and player data.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Beta Testing & Security Auditing  
 
-To learn more about Next.js, take a look at the following resources:
+Ecliptic Portal is currently in beta, and we’re looking for testers and security researchers to help improve the platform.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### What You Can Do  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Identify security vulnerabilities** – Help us ensure the platform is secure.  
+- **Provide UI/UX feedback** – Suggest ways to improve the user experience.  
+- **Test performance and functionality** – Report any inconsistencies, slowdowns, or bugs.  
+- **Open GitHub Issues** – Submit detailed reports on problems you encounter.  
 
-## Deploy on Vercel
+### Responsible Disclosure Policy  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- If you discover a security vulnerability, **do not publicly disclose it**. Instead, report it privately to the Ecliptic development team.  
+- Malicious testing, brute force attempts, or unauthorized access beyond intended use is strictly prohibited.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Contributing  
+
+### How to Report Issues  
+1. Navigate to the **Issues** tab on GitHub.  
+2. Create a **new issue** and provide as much detail as possible.  
+3. If reporting a security issue, contact the development team privately.  
+
+### Development Contributions  
+At this time, external contributors are not allowed to push code to the repository. However, suggestions and issue reports are encouraged.  
+
+---
+
+## Deployment & Infrastructure  
+
+Ecliptic Portal is built using the modern **Next.js** framework. It is designed to handle real-time security management with a focus on efficiency and reliability.  
+
+**Technology Stack:**  
+- **Framework:** Next.js    
+- **Security Layers:** Integrated protection against unauthorized access  
+
+**By contributing to our services, you are agreeing to the ELSA, (Ecliptic Labs Security and Legal Agreement) A copy of this agreement can be found on our website, or this repository.**
+For any questions, contact the Ecliptic development team. contact@eclipticlabs.xyz
