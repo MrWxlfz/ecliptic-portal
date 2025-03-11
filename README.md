@@ -18,7 +18,7 @@ Ecliptic Portal is the official dashboard for managing your game’s security, m
 
 ## Beta Testing & Security Auditing  
 
-Ecliptic Portal is currently in beta, and we’re looking for testers and security researchers to help improve the platform.  
+Portal is currently in beta, and we’re looking for testers and security researchers to help improve the platform.  
 
 ### What You Can Do  
 
@@ -48,11 +48,12 @@ At this time, external contributors are not allowed to push code to the reposito
 
 ## Deployment & Infrastructure  
 
-Ecliptic Portal is built using the modern **Next.js** framework. It is designed to handle real-time security management with a focus on efficiency and reliability.  
+Portal is built using the modern **Next.js** framework. It is designed to handle real-time security management with a focus on efficiency and reliability.  
 
 **Technology Stack:**  
 - **Framework:** Next.js    
 - **Security Layers:** Integrated protection against unauthorized access  
 
 **By contributing to our services, you are agreeing to the ELSA, (Ecliptic Labs Security and Legal Agreement) A copy of this agreement can be found on our website, or this repository.**
-For any questions, contact the Ecliptic development team. contact@eclipticlabs.xyz
+
+**For any questions, contact the Ecliptic development team.** contact@eclipticlabs.xyz
