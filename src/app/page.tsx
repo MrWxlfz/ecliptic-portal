@@ -19,7 +19,7 @@ export default function LandingPage() {
       <header className="absolute top-0 left-0 right-0 flex items-center px-6 sm:px-8 py-3 sm:py-4 w-full max-w-7xl mx-auto transition-all duration-500">
         <div className="flex items-center w-full justify-between">
           <Link href="/">
-            <Image src="/logo.png" alt="Ecliptic Logo" width={64} height={64} className="cursor-pointer" />
+            <Image src="/logo.svg" alt="Ecliptic Logo" width={64} height={64} className="cursor-pointer" />
           </Link>
           <nav className="flex space-x-4 sm:space-x-6 text-base sm:text-lg">
             <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-lg transition-all duration-300">
