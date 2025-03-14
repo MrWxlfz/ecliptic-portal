@@ -1,7 +1,7 @@
-export default function Home() {
+export default function DashboardPage() {
   return (
-    <div className="flex h-screen w-full bg-black text-white items-center justify-center">
-      <h1 className="text-3xl font-bold">Welcome to Ecliptic Portal</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <h1 className="text-4xl font-bold">Welcome to Your Dashboard</h1>
     </div>
   );
 }

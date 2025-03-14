@@ -19,6 +19,29 @@
   }
 }
 
+@keyframes subtle {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-subtle {
+  background-size: 150% 150%;
+  animation: subtle 12s infinite ease-in-out;
+}
+
+
+.animate-liquid {
+  background-size: 200% 200%;
+  animation: liquid 10s infinite linear;
+}
+
+.animate-liquid {
+  background-size: 200% 200%;
+  animation: liquid 10s infinite linear;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
