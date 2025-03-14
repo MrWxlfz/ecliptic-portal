@@ -41,7 +41,7 @@ export default function LandingPage() {
       >
         <h2 className="text-6xl sm:text-7xl font-bold mb-6 leading-snug">Protect, manage, portal.</h2>
         <p className={`text-xl sm:text-2xl ${darkMode ? "text-gray-300" : "text-gray-600"} mb-8 max-w-2xl`}>
-          The Ecliptic Portal allows you to manage your community, protect your game, and take control—anytime, anywhere.
+          Portal allows you to manage your community, protect your game, and take control—anytime, anywhere.
         </p>
 
         {/* Buttons */}
