@@ -36,6 +36,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "Your Ecliptic ID has been created.", user: newUser }, { status: 201 });
 
   } catch (error) {
-    return NextResponse.json({ error: "Internal Server Error, check our status page." }, { status: 500 });
-  }
+      console.error("Signup Error:", error); // Log the error to prevent ESLint warning
+      return NextResponse.json({ error: "Internal Server Error, check our status page." }, { status: 500 });
+  }  
 }

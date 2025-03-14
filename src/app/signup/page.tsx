@@ -11,8 +11,8 @@ export default function SignupPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
-  const router = useRouter();
   const [darkMode, setDarkMode] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     setDarkMode(window.matchMedia("(prefers-color-scheme: dark)").matches);
@@ -35,10 +35,14 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen w-full overflow-hidden">
+    <div className={`relative flex flex-col items-center justify-center min-h-screen w-full overflow-hidden ${
+      darkMode ? "bg-black text-white" : "bg-white text-black"
+    }`}>
       {/* Updated Gradient - Ecliptic Purple */}
       <motion.div 
-        className="absolute inset-0 bg-gradient-to-br from-[#7D1EFF] via-[#400A78] to-black opacity-90 animate-liquid"
+        className={`absolute inset-0 bg-gradient-to-br from-[#7D1EFF] via-[#400A78] to-black opacity-90 animate-liquid ${
+          darkMode ? "opacity-100" : "opacity-80"
+        }`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
@@ -46,7 +50,9 @@ export default function SignupPage() {
 
       {/* Signup Box */}
       <motion.div 
-        className="relative z-10 w-[90%] sm:w-[400px] p-8 rounded-2xl shadow-xl bg-black text-white"
+        className={`relative z-10 w-[90%] sm:w-[400px] p-8 rounded-2xl shadow-xl ${
+          darkMode ? "bg-black text-white" : "bg-white text-black"
+        }`}
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
